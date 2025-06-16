@@ -1,7 +1,7 @@
 resource "ibm_compute_vm_instance" "vm1" {
   hostname = "terraform-vm"
   domain = "example.com"
-  as_reference_code = "DEBIAN_8_64"
+  os_reference_code = "DEBIAN_8_64"
   datacenter = "dal09"
   network_speed = 10
   cores = 1
