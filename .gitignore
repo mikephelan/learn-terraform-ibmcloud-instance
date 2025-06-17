@@ -36,6 +36,9 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+# default name for plan artifact (a zip archive)
+tfplan
+
 # emacs
 *~
 .#*
